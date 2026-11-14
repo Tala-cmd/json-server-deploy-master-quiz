@@ -9,7 +9,6 @@
 
 ## Create your database
 
-1. Press the green `Use this template`-button in the right corner of [this repo](https://github.com/jesperorb/json-server-heroku)
 2. Give your new repo a name and press the green `Create repository from template`-button
 3. Clone your newly created repository to your computer
 
@@ -100,7 +99,6 @@ az webapp deployment source config-local-git -n NameOfApp -g NameOfResourceGroup
 6 . From the command in step 5 you should get a **url** in return. Copy this url and add it as a remote to your local git project, for example:
 
 ```bash
-git remote add azure https://jesperorb@deploy-testing.scm.azurewebsites.net/deploy-testing.git
 ```
 
 7 . Now you should be able to push your app:
